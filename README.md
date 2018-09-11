@@ -19,8 +19,11 @@ How to use
 Point of this/Application
 
   This simple app analyzes a passage of the bible of your choosing. It can be useful for self study.
+  
   A wordcloud.png will be created that can give you a new outlook on key words and themes.
+  
   A results.txt will be created with the stats
+      
       - total words
       - unique words
       - top words
@@ -28,6 +31,7 @@ Point of this/Application
       - number of sentences
       - Flesch–Kincaid readability score
       - Top/Bottom polarizing sentences from text
+ 
  This program can be good for analyzing chapters, books, several books, or the entirety of the bible.
  
  
