@@ -38,4 +38,5 @@ Point of this/Application
        - add more results
            - top nouns, top verbs, top adj
    - Output more graphics in Results folder
-   - 
+   - Need to reformat code so program can run more smoothly
+        - get UI
