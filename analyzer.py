@@ -16,11 +16,10 @@ import os
 
 START = 1001001
 END   = 6001001
-
-# Create passage
-mypassageASV = Passage(START, END, 'web')
+VER = 'web'
 
 # Main objects
+mypassageASV = Passage(START, END, VER)
 text = mypassageASV.text
 blob = TextBlob(text)
 words = blob.word_counts
@@ -76,8 +75,6 @@ for i in range(3):
 		bottom_polar[i] = ''
 
 #-------------- Get Top Words
-# Is this sort n^2 
-# Is there simplier way to sort
 words = sorted(words.items(), key=lambda x: x[1])
 words = [ i for i in words if (i[0] != 'the' and i[0] != 'of' and i[0] != 'and' 
 	and i[0] != 'is' and i[0] != 'but' and i[0] != 'for' and i[0] != 'a' and 
